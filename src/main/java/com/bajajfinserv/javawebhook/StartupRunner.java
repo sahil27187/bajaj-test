@@ -17,9 +17,9 @@ public class StartupRunner implements CommandLineRunner {
         RestTemplate restTemplate = new RestTemplate();
 
         Map<String, String> requestBody = new HashMap<>();
-        requestBody.put("name", "Your Name");
+        requestBody.put("name", "Sahil Ramesh Mane");
         requestBody.put("regNo", "22BLC1104");
-        requestBody.put("email", "your.email@example.com");
+        requestBody.put("email", "jaishreemane73@gmail.com");
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
@@ -61,3 +61,4 @@ public class StartupRunner implements CommandLineRunner {
         }
     }
 }
+
